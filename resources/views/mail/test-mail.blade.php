@@ -9,7 +9,7 @@
         You can replace the above vite call with a direct link to the CSS file, and while some
         is ported into the style tags, other parts aren't
 
-        <link rel="stylesheet" href="./build/assets/mail-2fd56f8e.css">
+        <link rel="stylesheet" href="./build/assets/mail-32b9dd76.css">
     --}}
 </head>
 <body class="antialiased">
