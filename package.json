@@ -3,9 +3,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "dev:mail": "vite --config vite.mail.config.js",
-        "build": "vite build",
-        "build:mail": "vite build --config vite.mail.config.js"
+        "build": "vite build"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.16",

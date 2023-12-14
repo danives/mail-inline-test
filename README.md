@@ -1,11 +1,16 @@
 # Mail Test
 
-To start the normal way:
+### Setup
+
+- Clone the repo
+- Copy .env.example to .env
+- Set mail credentials in .env
+- Set your environment to production in .env
 - sail up -d
 - sail composer install
 - sail npm install
-- sail npm run dev
+- sail npm run build
 
-Once the page has loaded, cancel out of `sail npm run dev` and run `sail npm run dev:mail` which will start the mail listener.
-
-To build the mail css, run `sail npm run build:mail`
+### Usage
+- Visit / and provide an email address to send an email
+- Visit /preview to preview what the mail should look like

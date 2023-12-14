@@ -4,7 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mail Test</title>
-    @vite(['resources/css/mail.css'])
+    @vite('resources/css/mail.css')
+    {{--
+        You can replace the above vite call with a direct link to the CSS file, and while some
+        is ported into the style tags, other parts aren't
+
+        <link rel="stylesheet" href="./build/assets/mail-2fd56f8e.css">
+    --}}
 </head>
 <body class="antialiased">
 <div class="w-[600px] mx-auto mt-6">
